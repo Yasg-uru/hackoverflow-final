@@ -1,0 +1,22 @@
+/* Default styles */
+.left-section {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .paragraphs p {
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for tablets and smaller devices */
+    .left-section {
+      width: 100%; /* Take full width on smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  

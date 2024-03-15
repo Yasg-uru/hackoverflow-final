@@ -1,0 +1,69 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Default styles */
+.content-section {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("D:\fullstackwebdevcourse\hack overflow\frontend\src\components\image\backgroundimage.png");
+  background-position: center;
+  padding: 100px 20px; 
+  color: #fff;
+  text-align: center;
+}
+
+.content-text {
+  width: 100%; /* Take full width */
+  max-width: 800px; 
+  margin: 0 auto; /* Center align horizontally */
+}
+
+.content-text h1 {
+  font-size: 36px; 
+}
+
+.content-text p {
+  font-size: 18px;  
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #070907f7;
+  color: #e0d3e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #a17474;
+  color: black;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .content-section {
+    padding: 80px 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .content-text {
+    width: 100%; /* Take full width */
+    padding: 0 20px; /* Added padding for better spacing */
+  }
+
+  .content-text h1 {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+  }
+
+  .content-text p {
+    font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+}

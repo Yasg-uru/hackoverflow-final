@@ -1,0 +1,15 @@
+.main-container{
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  border: 2px solid red;
+ align-items: center;
+ padding: 10px;
+ gap: 20px;
+  
+}
+.box{
+  height: 20vh;
+  width: 30vw;
+  border: 2px solid red;
+}
