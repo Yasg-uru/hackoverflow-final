@@ -13,6 +13,7 @@ import Adminpanel from './adminpanel/Adminpanel.jsx'
 import Login from './authcomponents/Login.jsx'
 import  Application  from './adminpanel/Application.jsx'
 import Getlawyers from './adminpanel/Getlawyers.jsx'
+import Createcontent from './adminpanel/Createcontent.jsx'
 function App() {
 
 
@@ -27,6 +28,7 @@ function App() {
   <Route path='/login' element={<Login/>}> </Route>
 <Route path='/application' element={<Application/>}></Route>
 <Route path='/getlawyer' element={<Getlawyers/>}/>
+<Route path='/createpost' element={<Createcontent/>}/>
   </Routes>  
   </>
 

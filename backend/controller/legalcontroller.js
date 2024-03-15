@@ -3,12 +3,9 @@ import Errorhandler from "../utils/Errorhandler.js";
 import catchAsyncError from "../middleware/catchasyncerror.js";
 export const createcategory = catchAsyncError(async (req, res, next) => {
   try {
-    const { title, content, auther, publicationDate, tags } = req.body;
+    const { name, description,articles  } = req.body;
     const category = await Category.create({
-      title,
-      content,
-
-      tags,
+      name, description,articles
     });
     res.json({
       success: true,
